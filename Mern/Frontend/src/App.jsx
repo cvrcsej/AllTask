@@ -4,15 +4,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 function App() {
-
   const [username, setUsername] = useState("John Doe");
   const [email, setEmail] = useState("john.doe@example.com");
-
-
   const changeUsername = (newName) => {
     setUsername(newName);
   };
-
   return (
     <div className="flex h-screen bg-gray-800 text-white justify-center items-center gap-5">
       <Home username={username} changeUsername={changeUsername} />
@@ -21,5 +17,4 @@ function App() {
     </div>
   );
 }
-
-export default App;
+export default App;                           

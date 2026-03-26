@@ -10,5 +10,4 @@ function Home({ username, changeUsername }) {
 		</div>
 	);
 }
-
 export default Home;
